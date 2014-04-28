@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF63B54F190B2330000644A3 /* picture1.png in Resources */ = {isa = PBXBuildFile; fileRef = BF63B54E190B2330000644A3 /* picture1.png */; };
+		BF63B551190B233D000644A3 /* picture2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF63B550190B233D000644A3 /* picture2.png */; };
 		BFA18B5918F23B8A00229CD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA18B5818F23B8A00229CD3 /* Foundation.framework */; };
 		BFA18B5B18F23B8A00229CD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA18B5A18F23B8A00229CD3 /* CoreGraphics.framework */; };
 		BFA18B5D18F23B8A00229CD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA18B5C18F23B8A00229CD3 /* UIKit.framework */; };
@@ -21,6 +23,11 @@
 		BFA18B7A18F23B8A00229CD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA18B5C18F23B8A00229CD3 /* UIKit.framework */; };
 		BFA18B8218F23B8A00229CD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFA18B8018F23B8A00229CD3 /* InfoPlist.strings */; };
 		BFA18B8418F23B8A00229CD3 /* SliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA18B8318F23B8A00229CD3 /* SliderTests.m */; };
+		BFA18B8F18F23C0800229CD3 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA18B8E18F23C0800229CD3 /* Tile.m */; };
+		BFA18B9318F23CA000229CD3 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA18B9118F23CA000229CD3 /* FlipsideViewController.m */; };
+		BFA18B9418F23CA000229CD3 /* FlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFA18B9218F23CA000229CD3 /* FlipsideViewController.xib */; };
+		BFDF945019087775003A4561 /* picture0.png in Resources */ = {isa = PBXBuildFile; fileRef = BFDF944F19087775003A4561 /* picture0.png */; };
+		BFE4C32B1909CF89000C9D4B /* picture3.png in Resources */ = {isa = PBXBuildFile; fileRef = BFE4C32A1909CF89000C9D4B /* picture3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF63B54E190B2330000644A3 /* picture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture1.png; sourceTree = "<group>"; };
+		BF63B550190B233D000644A3 /* picture2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture2.png; sourceTree = "<group>"; };
 		BFA18B5518F23B8A00229CD3 /* Slider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA18B5818F23B8A00229CD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFA18B5A18F23B8A00229CD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +62,13 @@
 		BFA18B7F18F23B8A00229CD3 /* SliderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SliderTests-Info.plist"; sourceTree = "<group>"; };
 		BFA18B8118F23B8A00229CD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFA18B8318F23B8A00229CD3 /* SliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderTests.m; sourceTree = "<group>"; };
+		BFA18B8D18F23C0800229CD3 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		BFA18B8E18F23C0800229CD3 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		BFA18B9018F23CA000229CD3 /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		BFA18B9118F23CA000229CD3 /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		BFA18B9218F23CA000229CD3 /* FlipsideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlipsideViewController.xib; sourceTree = "<group>"; };
+		BFDF944F19087775003A4561 /* picture0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture0.png; sourceTree = "<group>"; };
+		BFE4C32A1909CF89000C9D4B /* picture3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +133,11 @@
 				BFA18B6A18F23B8A00229CD3 /* Main.storyboard */,
 				BFA18B6D18F23B8A00229CD3 /* SliderViewController.h */,
 				BFA18B6E18F23B8A00229CD3 /* SliderViewController.m */,
+				BFA18B9018F23CA000229CD3 /* FlipsideViewController.h */,
+				BFA18B9118F23CA000229CD3 /* FlipsideViewController.m */,
+				BFA18B9218F23CA000229CD3 /* FlipsideViewController.xib */,
+				BFA18B8D18F23C0800229CD3 /* Tile.h */,
+				BFA18B8E18F23C0800229CD3 /* Tile.m */,
 				BFA18B7018F23B8A00229CD3 /* Images.xcassets */,
 				BFA18B5F18F23B8A00229CD3 /* Supporting Files */,
 			);
@@ -126,6 +147,10 @@
 		BFA18B5F18F23B8A00229CD3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BFDF944F19087775003A4561 /* picture0.png */,
+				BF63B54E190B2330000644A3 /* picture1.png */,
+				BF63B550190B233D000644A3 /* picture2.png */,
+				BFE4C32A1909CF89000C9D4B /* picture3.png */,
 				BFA18B6018F23B8A00229CD3 /* Slider-Info.plist */,
 				BFA18B6118F23B8A00229CD3 /* InfoPlist.strings */,
 				BFA18B6418F23B8A00229CD3 /* main.m */,
@@ -231,7 +256,12 @@
 			files = (
 				BFA18B7118F23B8A00229CD3 /* Images.xcassets in Resources */,
 				BFA18B6318F23B8A00229CD3 /* InfoPlist.strings in Resources */,
+				BFA18B9418F23CA000229CD3 /* FlipsideViewController.xib in Resources */,
+				BF63B54F190B2330000644A3 /* picture1.png in Resources */,
 				BFA18B6C18F23B8A00229CD3 /* Main.storyboard in Resources */,
+				BF63B551190B233D000644A3 /* picture2.png in Resources */,
+				BFE4C32B1909CF89000C9D4B /* picture3.png in Resources */,
+				BFDF945019087775003A4561 /* picture0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +283,8 @@
 				BFA18B6518F23B8A00229CD3 /* main.m in Sources */,
 				BFA18B6F18F23B8A00229CD3 /* SliderViewController.m in Sources */,
 				BFA18B6918F23B8A00229CD3 /* SliderAppDelegate.m in Sources */,
+				BFA18B9318F23CA000229CD3 /* FlipsideViewController.m in Sources */,
+				BFA18B8F18F23C0800229CD3 /* Tile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +493,7 @@
 				BFA18B8918F23B8A00229CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFA18B8A18F23B8A00229CD3 /* Build configuration list for PBXNativeTarget "SliderTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +502,7 @@
 				BFA18B8C18F23B8A00229CD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
